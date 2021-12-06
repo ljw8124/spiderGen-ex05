@@ -1,0 +1,9 @@
+{
+  "styleName": "homepageApp_global",
+  "items": {
+    "_global_style_": "\n._global_style_\n{\n\tfont-size: 12px;\n\tfont-family: courier;\n\ttext-size-adjust: none;\n\n}\n",
+    "global_resp": "\r\n.global_resp\r\n{\r\n\t/* global_resp 는 body 에 추가된 클래스 입니다. */\r\n\r\n}\r\n\r\n/*가로모드*/\r\n@media screen and (orientation: landscape)\r\n{\r\n\t.global_resp\r\n\t{\r\n\t}\r\n}\r\n\r\n/*ios*/\r\n@supports (-webkit-overflow-scrolling: touch)\r\n{\r\n}\r\n\r\n/*tablet*/\r\n@media screen and (min-width:641px)\r\n{\r\n}\r\n",
+    "nav_btn": ".nav_btn\n{\n\t\n\tfont-size: 14px;\n\tcolor: white;\n\tbackground-color: rgb(0, 0, 0);\n\t\n\t\n}\n.nav_btn:hover\n{\n\t\n\tfont-size: 14px;\n\tcolor: rgb(2, 191, 191);\n\tbackground-color: rgb(0, 0, 0);\n\tfont-weight: bold;\n\tborder-bottom-width: 4px;\n\tborder-bottom-style: solid;\n\tborder-bottom-color: rgb(2, 191, 191);\n}\n\n\n",
+    "lbl_footer": ".lbl_footer\n{\n\t\n\tcolor: rgb(136, 136, 136);\n\tfont-size: 14px;\n}\n\n"
+  }
+}
