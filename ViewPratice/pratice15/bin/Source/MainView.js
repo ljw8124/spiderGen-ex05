@@ -6,9 +6,6 @@ Do not call Function in Constructor.
 function MainView()
 {
 	AView.call(this);
-
-	//TODO:edit here
-
 }
 afc.extendsClass(MainView, AView);
 

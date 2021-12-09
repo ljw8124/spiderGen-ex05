@@ -20,7 +20,7 @@ pratice11App.prototype.onReady = function()
 	AApplication.prototype.onReady.call(this);
 
 	//두가지 방법으로 사용 가능
-	//isMainNavi 값을  true, false로 변경하여 다음 두가지 경우를 테스트 가능
+	//isMainNavi 값을 true, false로 변경하여 다음 두가지 경우를 테스트 가능
 	var isMainNavi = true;
 
 	//응용프로그램 전체를 네비게이터 방식으로 동작하게 하는 경우

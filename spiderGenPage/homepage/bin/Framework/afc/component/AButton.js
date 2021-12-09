@@ -253,7 +253,7 @@ AButton.prototype.downState = function()
 	}
 	
 	//밝기를 줄임
-	else if(this.option.autoDownState) this._changeBgLightness(0.15, 'important');
+	//else if(this.option.autoDownState) this._changeBgLightness(0.15, 'important');
 };
 
 AButton.prototype.overState = function()

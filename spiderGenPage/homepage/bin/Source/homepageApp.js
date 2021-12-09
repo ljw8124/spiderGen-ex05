@@ -1,3 +1,6 @@
+afc.loadScript("Framework/afc/component/AApplication.js");
+afc.loadScript("Framework/afc/component/APage.js");
+
 
 /**
 Constructor

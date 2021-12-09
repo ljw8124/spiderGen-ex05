@@ -92,21 +92,16 @@ ADropBox.prototype.init = function(context, evtListener)
 	
 	if(this.isDev())
 	{
-		this.addItem('JAVA');
-		this.addItem('자바스크립트');
-		this.addItem('파이썬');
-		this.addItem('C++');
-		this.addItem('루비');
-		this.addItem('스위프트');
-		this.addItem('C#');
-		this.addItem('PHP');
+		this.addItem('작성자');
+		this.addItem('제목');
+		this.addItem('내용');
 		
-		this.selectItem(0);
+		this.selectItem(1);
 	}
 	// 런타임시 JAVA 들어간 내용 제거
-	else this.setEditText('');
+	else this.setEditText('제목');
 	
-	//this.openBoxManage();
+	this.openBoxManage();
 };
 
 ADropBox.prototype.openBoxManage = function()
