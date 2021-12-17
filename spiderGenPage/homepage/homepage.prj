@@ -395,6 +395,12 @@
                 "name": "ic_close_03.png",
                 "relType": 1,
                 "path": "Source\\"
+              },
+              {
+                "type": 8,
+                "name": "기본프로필.webp",
+                "relType": 1,
+                "path": ""
               }
             ]
           }
@@ -597,5 +603,5 @@
       }
     ]
   },
-  "version": "3.2.7"
+  "version": "3.2.8"
 }
